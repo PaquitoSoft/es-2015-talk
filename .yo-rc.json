@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Javascript ES2015",
+    "packageVersion": "1.0.0",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "PaquitoSoft",
+    "githubRepository": "es-2015-talk"
+  }
+}
