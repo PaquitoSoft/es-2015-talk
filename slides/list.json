@@ -5,6 +5,7 @@
         "index.md",
         "index-2.md"
     ],
+    "background.md",
     "transpilers.md",
     [
         "new-variables-types.md",
@@ -12,7 +13,12 @@
         "variables-const.md"
     ],
     [
-    	"arrow-functions.md",
-    	"arrow-functions-code.md"
-    ]
+        "arrow-functions.md",
+        "arrow-functions-code.md"
+    ],
+    [
+        "promises.md",
+        "promises-code.md"
+    ],
+    "references.md"
 ]

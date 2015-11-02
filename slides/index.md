@@ -1,6 +1,7 @@
 
 ## Index
 
+* Background
 * Transpilers
 * New variables types
 * Arrow functions
@@ -10,6 +11,4 @@
 * Classes
 * Enhanced objects
 * Modules
-* Destructuring
 * Array extras
-* Symbols

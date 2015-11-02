@@ -21,3 +21,7 @@ processRoute(path, state = {}) {
 			...
 	</code>
 </pre>
+
+<aside class="notes">
+	Parenthesis are optional if function has only one parameter
+</aside>
