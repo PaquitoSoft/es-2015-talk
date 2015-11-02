@@ -1,1 +1,13 @@
-["index.md"]
+[
+    "home.md",
+    "who-am-i.html",
+    [
+        "index.md",
+        "index-2.md"
+    ],
+    [
+    	"new-variables-types.md",
+	    "variables-let.md",
+	    "variables-const.md"
+    ]
+]

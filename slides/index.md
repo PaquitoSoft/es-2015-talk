@@ -1,10 +1,14 @@
 
-# Javascript ES2015
+## Index
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+* New variables types
+* Arrow functions
+* Promises
+* Default parameters
+* Template strings
+* Classes
+* Enhanced objects
+* Modules
+* Destructuring
+* Array extras
+* Symbols
