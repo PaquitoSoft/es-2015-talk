@@ -1,4 +1,4 @@
-##  <a href="http://devdocs.io/javascript/global_objects/promise">Promises</a>
+##  <a href="http://devdocs.io/javascript/global_objects/promise" target="_blank">Promises</a>
 
 * Mainly designed to avoid _callback hell_
 * Easier to chain async (and sync) functions

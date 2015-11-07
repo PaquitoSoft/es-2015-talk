@@ -9,6 +9,6 @@
 * Default parameters
 * Template strings
 * Classes
-* Enhanced objects
 * Modules
+* Enhanced objects
 * Array extras

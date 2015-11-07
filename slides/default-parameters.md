@@ -1,4 +1,4 @@
-##  <a href="http://devdocs.io/javascript/functions/default_parameters">Default parameters</a>
+##  <a href="http://devdocs.io/javascript/functions/default_parameters" target="_blank">Default parameters</a>
 
 * No more existance checking inside body function
 * Evaluated at call time (new _objects_ created on every call)

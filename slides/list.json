@@ -21,6 +21,29 @@
         "promises-code.md",
         "promises-code-2.md"
     ],
-    "references.md",
-    "default-parameters.md"
+    [
+        "default-parameters.md",
+        "default-parameters-code.md"
+    ],
+    [
+        "template-strings.md",
+        "template-strings-code.md"
+    ],
+    [
+        "classes.md",
+        "classes-code-1.md",
+        "classes-code-2.md",
+        "classes-code-3.md"
+    ],
+    [
+        "modules.md",
+        "modules-code-1.md",
+        "modules-code-2.md",
+        "modules-code-3.md"
+    ],
+    [
+    	"enhanced-objects.md",
+    	"enhanced-objects-code.md"
+    ],
+    "references.md"
 ]
