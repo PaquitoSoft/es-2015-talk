@@ -18,7 +18,9 @@
     ],
     [
         "promises.md",
-        "promises-code.md"
+        "promises-code.md",
+        "promises-code-2.md"
     ],
-    "references.md"
+    "references.md",
+    "default-parameters.md"
 ]

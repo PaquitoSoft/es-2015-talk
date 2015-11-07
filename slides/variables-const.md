@@ -17,3 +17,8 @@ CONFIG.defaultTtl = 10;
 console.log(CONFIG); // --> { defaultTTl: 1440 }
 	</code>
 </pre>
+
+<aside class="notes">
+	If you use _freeze_ you don't need _const_, it's useless
+	Arrays can be _freezed_ so you cannot assign new values. Adding, removing throws error
+</aside>
