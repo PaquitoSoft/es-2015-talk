@@ -1,7 +1,7 @@
 ##  Promises code - I
 
 <pre>
-	<code style="max-height: 475px;">
+	<code data-trim>
 static findById(podcastId) {
 	let cacheKey = PODCAST_CACHE_PREFIX + podcastId,
 		podcast = lscache.get(cacheKey);

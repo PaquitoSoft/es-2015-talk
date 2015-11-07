@@ -1,7 +1,7 @@
 ##  Arrow functions code
 
 <pre>
-	<code style="max-height: 450px;">
+	<code data-trim>
 processRoute(path, state = {}) {
 	...
 	if (routeConfig) {

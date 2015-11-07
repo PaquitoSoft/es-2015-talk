@@ -1,7 +1,7 @@
 ##  Promises Code - II
 
 <pre>
-	<code>
+	<code data-trim>
 {
 	path: '/podcast/:podcastId',
 	handler: function podcastDetailHandler(context) {
