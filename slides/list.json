@@ -42,8 +42,9 @@
         "modules-code-3.md"
     ],
     [
-    	"enhanced-objects.md",
-    	"enhanced-objects-code.md"
+        "enhanced-objects.md",
+        "enhanced-objects-code.md"
     ],
+    "array-extras.md",
     "references.md"
 ]
