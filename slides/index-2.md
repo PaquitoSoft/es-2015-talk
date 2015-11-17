@@ -3,9 +3,7 @@
 * Destructuring
 * Symbols
 * for...of
-* String methods
-* Rest parameters
-* Spread operator
+* Rest parameters and spread
 * Iterators
 * Generators
 * Proxies

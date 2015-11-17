@@ -46,5 +46,9 @@
         "enhanced-objects-code.md"
     ],
     "array-extras.md",
+    "destructuring.md",
+    "symbols.md",
+    "for-of.md",
+    "rest-and-spread.md",
     "references.md"
 ]
