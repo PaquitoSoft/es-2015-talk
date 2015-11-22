@@ -1,4 +1,4 @@
-##  Proxies
+##  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy" target="_blank">Proxies</a>
 
 * Object interceptors (objects and functions)
 * Run custom code on object basic operations
