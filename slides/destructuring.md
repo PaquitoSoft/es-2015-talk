@@ -6,15 +6,15 @@
 
 <pre>
 	<code data-trim>
-	// Router
-	export let RouterEvents = {}
-	export class RouterEngine extends EventsEmitter {}
+// Router
+export let RouterEvents = {}
+export class RouterEngine extends EventsEmitter {}
 
-	// BaseController
-	import { RouterEngine } from '../plugins/router';
+// BaseController
+import { RouterEngine } from '../plugins/router';
 
-	// Arrays
-	let arr = ['Rollo', 'Tomassi', 46];
-	let [name, surname, age] = arr;
+// Arrays
+let arr = ['Rollo', 'Tomassi', 46];
+let [name, surname, age] = arr;
 	</code>
 </pre>

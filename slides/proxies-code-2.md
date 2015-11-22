@@ -5,12 +5,18 @@
 function Observable(target) {
 	let observableRegistry = [];
 
+	function triggerPropertyChanged(property, previousValue, newValue) {
+		observableRegistry.forEach(callback => {
+			callback.call(null, property, previousValue, newValue);
+		});
+	}
+
 	let proxy = new Proxy(target, {
 		set: function(object, property, value, proxy) {
 			let previousValue = object[property];
 			object[property] = value;
-			if (['onPropertyChanged', 'triggerPropertyChanged'].indexOf(property) === -1) {
-				proxy.triggerPropertyChanged(property, previousValue, value);
+			if ('onPropertyChanged !== property) {
+				triggerPropertyChanged(property, previousValue, value);
 			}
 			return true;
 		}
@@ -18,13 +24,7 @@ function Observable(target) {
 
 	proxy.onPropertyChanged = function(callback) {
 		observableRegistry.push(callback);
-	},
-
-	proxy.triggerPropertyChanged = function(property, previousValue, newValue) {
-		observableRegistry.forEach(callback => {
-			callback.call(null, property, previousValue, newValue);
-		});
-	}
+	};
 
 	return proxy;
 }

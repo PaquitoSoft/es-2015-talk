@@ -2,7 +2,7 @@
 
 <pre>
 	<code data-trim>
-let person = window.person = new Observable({
+let person = new Observable({
 	name: 'Rollo Tomassi',
 	age: 47
 });
