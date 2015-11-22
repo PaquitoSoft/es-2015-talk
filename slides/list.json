@@ -45,6 +45,7 @@
         "enhanced-objects.md",
         "enhanced-objects-code.md"
     ],
+    "index-2.md",
     "array-extras.md",
     "destructuring.md",
     [
@@ -60,5 +61,6 @@
     	"proxies-code-1.md",
     	"proxies-code-2.md"
     ],
-    "references.md"
+    "references.md",
+    "who-am-i.html"
 ]
