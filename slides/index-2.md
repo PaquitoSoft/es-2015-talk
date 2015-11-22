@@ -1,11 +1,9 @@
 ## ...Index
 
+* Array extras
 * Destructuring
 * Symbols
 * for...of
-* String methods
-* Rest parameters
-* Spread operator
-* Iterators
+* Rest parameters and spread
 * Generators
 * Proxies

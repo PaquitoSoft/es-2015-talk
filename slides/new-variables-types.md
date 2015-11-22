@@ -12,6 +12,6 @@
 </h3>
 <p class="fragment">
 	Allows to declare non updatable values<br/>
-	_Beware of objects and arrays: <a href="http://devdocs.io/javascript/global_objects/object/freeze" target="_blank">Object.freeze</a> is your friend here_.
+	_Beware of objects and arrays: <a href="http://devdocs.io/javascript/global_objects/object/freeze" target="_blank">Object.freeze/Object.seal</a> are your friends here_.
 </p>
 

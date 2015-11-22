@@ -5,3 +5,4 @@
 * <a href="http://devdocs.io">Devdocs.io reference</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">Mozilla Developer Network reference</a>
 * <a href="https://babeljs.io/docs/learn-es2015/" target="_blank">Babel hints</a>
+* [2ality](http://www.2ality.com/)

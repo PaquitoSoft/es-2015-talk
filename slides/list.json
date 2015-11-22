@@ -46,5 +46,19 @@
         "enhanced-objects-code.md"
     ],
     "array-extras.md",
+    "destructuring.md",
+    [
+        "symbols.md",
+        "symbols-code.md"
+    ],
+    "for-of.md",
+    "rest-parameters.md",
+    "spread.md",
+    "generators.md",
+    [
+    	"proxies.md",
+    	"proxies-code-1.md",
+    	"proxies-code-2.md"
+    ],
     "references.md"
 ]
