@@ -19,6 +19,7 @@ console.log(CONFIG); // --> { defaultTTl: 1440 }
 </pre>
 
 <aside class="notes">
-	If you use _freeze_ you don't need _const_, it's useless
-	Arrays can be _freezed_ so you cannot assign new values. Adding, removing throws error
+	If you use _freeze_ you don't need _const_, it's useless.
+	Arrays can be _freezed_ so you cannot assign new values. Adding, removing throws error.
+	Object.seal() also prevent new properties to be added to the object.
 </aside>

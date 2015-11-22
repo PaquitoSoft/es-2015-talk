@@ -1,7 +1,7 @@
-##  Rest parameters and Spread operator
+## <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters" target="_blank">Rest parameters</a>
 
 * A true array _arguments_ object
-* Use array values separately
+* No more _arguments.slice()_
 
 <pre>
 	<code data-trim>

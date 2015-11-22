@@ -1,8 +1,8 @@
-##  Destructuring
+## <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" target="_blank">Destructuring</a>
 
 * Pick selected properties from objects and arrays
 * Allow for default values (if none, _undefined_ is the default)
-* Very useful when _importing_ modules to allow **tree shaking**
+* Very useful when _importing_ modules to allow **tree shaking** (ex: [Rollup.js](http://rollupjs.org/))
 
 <pre>
 	<code data-trim>

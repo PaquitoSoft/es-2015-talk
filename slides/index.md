@@ -11,4 +11,3 @@
 * Classes
 * Modules
 * Enhanced objects
-* Array extras

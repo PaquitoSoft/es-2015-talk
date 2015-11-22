@@ -1,4 +1,4 @@
-##  Modules
+## <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export" target="_blank">Modules</a>
 
 * Standarized way of authoring JS components
 * _export_ functions from your module then _import_ them from another one

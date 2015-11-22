@@ -1,4 +1,4 @@
-##  Array extras
+## <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">Array extras</a>
 
 __Array.from__ converts array-like objects into truly arrays
 
