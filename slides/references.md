@@ -1,6 +1,7 @@
 ##  references
 
 * <a href="https://github.com/lukehoban/es6features">Luke Hoban ES6 features repo</a>
+* [Nicolas Bevacqua ES6 repo](https://github.com/bevacqua/es6)
 * <a href="http://www.smashingmagazine.com/2015/10/es6-whats-new-next-version-javascript/">What's new in the new version of Javascript?</a>
 * <a href="http://devdocs.io">Devdocs.io reference</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">Mozilla Developer Network reference</a>
