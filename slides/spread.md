@@ -13,7 +13,9 @@ let args = [2, 5, 7];
 sum(...args);
 
 let spans = document.querySelectorAll('span');
-spans.forEach((el) => console.log(el.tagName)); // ERROR
-[...spans].forEach((el) => console.log(el.tagName)); // "SPAN", "SPAN",...
+spans.forEach((el) => console.log(el.tagName));
+// ---> ERROR
+[...spans].forEach((el) => console.log(el.tagName));
+// ---> "SPAN", "SPAN",...
 	</code>
 </pre>
