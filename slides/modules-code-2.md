@@ -14,7 +14,7 @@ import PodcastModel from '../models/podcast';
 
 {
 	path: '/',
-	handler: function homePageController(/*context*/) {
+	handler: function homePageController() {
 		return new Promise((resolve, reject) => {
 			PodcastModel.findAll()
 				.then(function(data) {
