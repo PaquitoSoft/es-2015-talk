@@ -1,6 +1,6 @@
 ##  Modules code - I
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 // plugins/dom.js
 function matches($el, selector) {
@@ -20,7 +20,10 @@ update() {
 		$prevPodcasts = dom.findEl('.podcasts', this.$el);
 
 	dom.findEl('.badge', this.$el).innerHTML = this.data.podcasts.length;
-	$prevPodcasts.parentNode.replaceChild(dom.findEl('.podcasts', $updatedEl), $prevPodcasts);
+	$prevPodcasts.parentNode.replaceChild(
+		dom.findEl('.podcasts', $updatedEl),
+		$prevPodcasts
+	);
 }
 	</code>
 </pre>

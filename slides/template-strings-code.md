@@ -1,6 +1,6 @@
 ##  Template strings code - I
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 function fetchPodcastFeedUrl(podcast) {
 	return new Promise(function(resolve, reject) {
@@ -10,7 +10,8 @@ function fetchPodcastFeedUrl(podcast) {
 					podcast.feedUrl = data.results[0].feedUrl;
 					resolve(podcast);
 				} else {
-					reject(new Error('No feed Url found for podcast: ' + podcast.id));
+					reject(new Error('No feed Url found for podcast: ' +
+						podcast.id));
 				}
 			})
 			.catch(reject);

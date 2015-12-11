@@ -1,6 +1,6 @@
 ##  Promises code - I
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 static findById(podcastId) {
 	let cacheKey = PODCAST_CACHE_PREFIX + podcastId,

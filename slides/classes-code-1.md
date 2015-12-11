@@ -1,6 +1,6 @@
 ##  Classes code - I
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 class BaseController {
 	
@@ -9,7 +9,9 @@ class BaseController {
 		this.template = options.template;
 		this.partials = options.partials;
 		this.domEvents = options.domEvents;
-		this.defaultNavigation = (typeof options.defaultNavigation === 'undefined') ? true : options.defaultNavigation;
+		this.defaultNavigation = 
+			(typeof options.defaultNavigation === 'undefined') ? 
+				true : options.defaultNavigation;
 
 		// https://developer.mozilla.org/en-US/docs/Web/API/DOMParser
 		// http://caniuse.com/#feat=xml-serializer

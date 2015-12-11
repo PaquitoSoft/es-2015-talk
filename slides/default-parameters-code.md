@@ -1,6 +1,6 @@
 ##  Default parameters code
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 trigger(eventName, data = {}) {
 	let listeners = this.eventsRegistry[eventName] || [];
@@ -9,7 +9,7 @@ trigger(eventName, data = {}) {
 		try {
 			listener.call(this, data);
 		} catch (e) {
-			console.warn(`Error triggering event with name ${eventName}: ${e.message}`);
+			console.warn(`Error in event (${eventName}): ${e.message}`);
 		}
 	}
 }
