@@ -1,6 +1,6 @@
 ##  Promises Code - II
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 {
 	path: '/podcast/:podcastId',

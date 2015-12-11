@@ -2,11 +2,15 @@
 
 __Array.from__ converts array-like objects into truly arrays
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 export function findEls(selector, container) {
 	return Array.from((container || document).querySelectorAll(selector));
 }
+
+let productsImages = findEls('img.product-detail').map(($product) => {
+	return $product.getAttribute('src');
+});
 
 // Also (only in Firefox)
 for (let el of (container || document).querySelectorAll(selector)) {

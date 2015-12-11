@@ -6,3 +6,7 @@
 * Next version ES2016 (a.k.a. ES7)
 
 <small>Current support status: <a href="https://kangax.github.io/compat-table/es6/" target="_blank">Kangax ES* table</a></small>
+
+<aside class="notes">
+HTML 5 first release 2014/10/28
+</aside>

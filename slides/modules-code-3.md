@@ -1,7 +1,7 @@
 ##  Modules code - III
 
 <pre>
-	<code data-trim>
+	<code data-trim style="max-height: 530px;">
 // plugins/router.js
 export let RouterEvents = Object.freeze({
 	navigationStart: 'navigationStart',

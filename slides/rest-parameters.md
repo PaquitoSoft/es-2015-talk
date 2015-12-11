@@ -12,8 +12,10 @@ function sum(base, ...numbers) {
 	});
 	return result;
 }
-let x = 10,
-	others = [2,4,5,8];
-console.log(sum(x, ...others)); // 29
+let x = 10;
+console.log(sum(x, 2, 4, 5, 8)); // 29
+
+// OLD
+var args = Array.prototype.slice.call(arguments);
 	</code>
 </pre>

@@ -5,7 +5,7 @@
 * Please, do not begin creating classes just because you can
 * Allows to describe inheritance in a more succint way
 * Main features:
-** easy inherited constructors
-** allow _super_ calls
-** declarative static methods
-** declarative getters and setters
+  * easy inherited constructors
+  * allow _super_ calls
+  * declarative static methods
+  * declarative getters and setters
