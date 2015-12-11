@@ -27,7 +27,8 @@
     ],
     [
         "template-strings.md",
-        "template-strings-code.md"
+        "template-strings-code.md",
+        "templates-strings-code-2.md"
     ],
     [
         "classes.md",
@@ -57,10 +58,14 @@
     "spread.md",
     "generators.md",
     [
-    	"proxies.md",
-    	"proxies-code-1.md",
-    	"proxies-code-2.md"
+        "proxies.md",
+        "proxies-code-1.md",
+        "proxies-code-2.md"
+    ],
+    [
+        "features-use-quota.md",
+        "features-use-quota-2.md"
     ],
     "references.md",
-    "who-am-i.html"
+    "who-am-i.html"    
 ]

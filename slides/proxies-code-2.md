@@ -1,6 +1,6 @@
 ##  Proxies code - II
 
-<pre style="position: relative; top: -15px; line-height: 23px;">
+<pre style="position: relative; top: -15px; left: -20px; line-height: 23px; width: 95%;">
 	<code style="max-height: 575px;" data-trim>
 function Observable(target) {
 	let observableRegistry = [];
@@ -15,7 +15,7 @@ function Observable(target) {
 		set: function(object, property, value, proxy) {
 			let previousValue = object[property];
 			object[property] = value;
-			if ('onPropertyChanged !== property) {
+			if ('onPropertyChanged' !== property) {
 				triggerPropertyChanged(property, previousValue, value);
 			}
 			return true;

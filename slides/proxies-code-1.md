@@ -1,6 +1,6 @@
 ##  Proxies code - I
 
-<pre>
+<pre style="width: 100%;">
 	<code data-trim>
 let person = new Observable({
 	name: 'Rollo Tomassi',
@@ -8,7 +8,8 @@ let person = new Observable({
 });
 
 person.onPropertyChanged(function(property, prev, current) {
-	console.info(`Changing property: ${property}. From (${prev}) to (${current})`);
+	console.info(`Changing property: ${property}...`);
+	console.info(`From (${prev}) to (${current})`);
 });
 
 person.age = 48;

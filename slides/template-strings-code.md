@@ -1,10 +1,20 @@
-##  Template strings code
+##  Template strings code - I
 
 <pre>
 	<code data-trim>
-static navTo(path, state = {}) {
-	window.history.pushState(state, '', `#${path}`);
-	window.dispatchEvent(new PopStateEvent('popstate', { state }));
+function fetchPodcastFeedUrl(podcast) {
+	return new Promise(function(resolve, reject) {
+		ajax.getJsonp(`${PODCAST_ID_DATASOURCE_URL}?id=podcast.id`)
+			.then(function(data) {
+				if (data.results.length) {
+					podcast.feedUrl = data.results[0].feedUrl;
+					resolve(podcast);
+				} else {
+					reject(new Error('No feed Url found for podcast: ' + podcast.id));
+				}
+			})
+			.catch(reject);
+	});
 }
 
 function foo() { return 42; }

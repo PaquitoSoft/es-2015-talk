@@ -1,6 +1,6 @@
 ## <a href="https://github.com/lukehoban/es6features#enhanced-object-literals" target="_blank">Enhanced objects</a>
 
-* Set prototype at declaration time
+* Set prototype at declaration time (\_\_proto\_\_)
 * Shorthand for same name properties
 * Shorter function members syntax
 * Allow computed property names

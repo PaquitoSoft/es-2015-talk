@@ -16,5 +16,10 @@ import { RouterEngine } from '../plugins/router';
 // Arrays
 let arr = ['Rollo', 'Tomassi', 46];
 let [name, surname, age] = arr;
+
+// Defaults
+var { x = 3 } = {};
+console.log(x);
+// 3
 	</code>
 </pre>
